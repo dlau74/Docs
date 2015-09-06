@@ -38,11 +38,11 @@ State file specifies if a state file is used. If the state file is active, the s
 
 The FFmpeg decoder setting should be set to enabled if you require AAC / ALAC support. Doing so may slow down the performance of the MPD database refresh.
 
-#### FFmpeg decoder plugin
+#### Gapless MP3 playback
 
 Gapless MP3 playback allows you to enable gapless mode while playing MP3s. However, if you have problems with your MP3s ending abruptly, it is recommended that you set this argument to "disabled" to attempt to fix the problem. [NOTE: If this solves the problem, it is highly recommended to fix the MP3 files with vbrfix (available as vbrfix in the debian archive), at which point gapless MP3 playback can be enabled.]
 
-#### FFmpeg decoder plugin
+#### DSD Support
 
 DSD Support enables and disables support for playing DSD Audio.
 
